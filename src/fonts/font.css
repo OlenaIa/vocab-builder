@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'MacPaw Fixel Display';
+    src: local('MacPaw Fixel Display Bold'), local('FixelDisplay-Bold'),
+        url('./MacPawFixelDisplay/FixelDisplay-Bold.ttf') format('truetype'),
+        url('./MacPawFixelDisplay/FixelDisplay-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MacPaw Fixel Display';
+    src: local('MacPaw Fixel Display Medium'), local('FixelDisplay-Medium'),
+        url('./MacPawFixelDisplay/FixelDisplay-Medium.ttf') format('truetype'),
+        url('./MacPawFixelDisplay/FixelDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MacPaw Fixel Display';
+    src: local('MacPaw Fixel Display Regular'), local('FixelDisplay-Regular'),
+        url('./MacPawFixelDisplay/FixelDisplay-Regular.ttf') format('truetype'),
+        url('./MacPawFixelDisplay/FixelDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MacPaw Fixel Display';
+    src: local('MacPaw Fixel Display SemiBold'), local('FixelDisplay-SemiBold'),
+        url('./MacPawFixelDisplay/FixelDisplay-SemiBold.ttf') format('truetype'),
+        url('./MacPawFixelDisplay/FixelDisplay-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Light'), local('SF-Pro-Display-Light'),
+        url('./SFPro/SF-Pro-Display-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Regular'), local('SF-Pro-Display-Regular'),
+        url('./SFPro/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: local('SF Pro Text Regular'), local('SF-Pro-Text-Regular'),
+        url('./SFPro/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,13 +1,76 @@
+@import-normalize;
+/* bring in normalize.css styles */
+@import url('./fonts/font.css');
+
+/* Base styles */
+
+:root {
+  --color-text-grey: rgba(17, 16, 28, 0.5);
+  --color-text-black: #11101C;
+  --color-text-white: #FBFBFB;
+  --color-text-filter: #8A8A89;
+  --color-text-price: #38CD3E;
+
+  --color-background-primary: #FCFCFC;
+  --color-background-accent: #F8F8F8;;
+  --color-background-hero-and-icon: #85AA9F;
+  --color-background-avatar: #121417;
+
+  
+  --color-background-star: #FFC531;
+  --color-button-border: rgba(251, 251, 251, 0.40);
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'MacPaw Fixel Display', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.38;
+  color: var(--color-text-grey);
+  background-color: var(--color-background-primary);
+  width: 100%;
+  min-width: 320px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
