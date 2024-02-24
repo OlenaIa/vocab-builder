@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# PET-project "VocabBuilder"
+
+## The technical task
+
+Layout: [Figma](https://www.figma.com/file/XRhVBdCX1wPyzCRA567kud/VocabBuilder)
+[The technical task](https://docs.google.com/spreadsheets/d/15zCxbWA7ubDmFzjmzzXe6ysiHVMd4iD2PcZ7ilN2gRc/edit#gid=1060862504).
+
+## Create project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
